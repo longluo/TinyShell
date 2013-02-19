@@ -7,7 +7,8 @@ We can run some commands like 'ls' 'cat' 'cd' 'rm' like so on.
 Comming soon for more.
 
 You can refer one of my blog (In Chinese):
-Ò»¸öÔÚÖÕ¶ËÊµÏÖÀàLinux shell£¨cd lsÃüÁî£©UI½çÃæµÄÏîÄ¿(CÓïÑÔÊµÏÖ)
+
+ä¸€ä¸ªåœ¨ç»ˆç«¯å®ç°ç±»Linux shellï¼ˆcd lså‘½ä»¤ï¼‰UIç•Œé¢çš„é¡¹ç›®(Cè¯­è¨€å®ç°)
 http://blog.csdn.net/tcpipstack/article/details/8181921
 
 Have fun:-)
