@@ -30,8 +30,9 @@
 #include <time.h>
 #include <dirent.h>
 #include "cmdline.h"
-#include "cmd_ls.h"
-#include "cmd_ui_shell.h"
+#include "TinyShell.h"
+#include "command/cmds.h"
+
 
 
 //*****************************************************************************
@@ -113,8 +114,8 @@ int Cmd_ls(int argc, char *argv[])
 	char c;
 	int i;
 	
-	// 解析命令行参数，即-/--后面的字符串和给定的字符串匹配，
-	// 有未解析字母返回字母或问号（取决于第3个参数），否则返回-1
+	// 锟斤拷锟斤拷锟斤拷锟斤拷锟叫诧拷锟斤拷锟斤拷锟斤拷-/--锟斤拷锟斤拷锟斤拷锟街凤拷锟斤拷锟酵革拷锟斤拷锟斤拷锟街凤拷锟斤拷匹锟戒，
+	// 锟斤拷未锟斤拷锟斤拷锟斤拷母锟斤拷锟斤拷锟斤拷母锟斤拷锟绞号ｏ拷取锟斤拷锟节碉拷3锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟津返伙拷-1
 	while((c = getopt(argc, argv, "al")) != -1)	 {
 	    // Only support the parameters of 'a' and 'l'.
 		switch(c)		
@@ -130,11 +131,11 @@ int Cmd_ls(int argc, char *argv[])
 		}
 	}
 	
-	//optind系统变量，执行命令参数的个数（不包括命令，奇怪的是无参情况下他为1），判断argc是否为1，是则取当前路径，让我们显得更专业点
+	//optind系统锟斤拷锟斤拷锟斤拷执锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟侥革拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟筋，锟斤拷锟街碉拷锟斤拷锟睫诧拷锟斤拷锟斤拷锟斤拷锟斤拷为1锟斤拷锟斤拷锟叫讹拷argc锟角凤拷为1锟斤拷锟斤拷锟斤拷取锟斤拷前路锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟皆得革拷专业锟斤拷
 	if (argc == optind) {
 		ls_prepare("./", aflag, lflag);
 	} else {
-	    //所有目录都传进去 
+	    //锟斤拷锟斤拷目录锟斤拷锟斤拷锟斤拷去 
 		for(i = optind; i < argc; i++)		
 		    ls_prepare(argv[i],aflag,lflag);
 	}
