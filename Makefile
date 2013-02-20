@@ -46,9 +46,12 @@ ${COMPILER}:
 	${CC} ${CFLAGS} -D${COMPILER} -o $@ $<
 
 # The objects.
-OBJS :=	TinyShell.o	\ 
-		cmdline.o	\
-		commands/cmd_ls.o	\
+OBJS =	TinyShell.o	\ 
+	cmdline.o	\
+	commands/cmd_ls.o	\
+	commands/cmd_help.o	\
+	commands/cmd_version.o
+
 		
 
 # The final executable file.
