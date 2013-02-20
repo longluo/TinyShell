@@ -1,13 +1,13 @@
 /************************************************************************************
 ** File: - Z:\work\code\c\longluo\cmdline.h
-** VENDOR_EDIT
-** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Copyright (C) long.luo, All Rights Reserved.
 ** 
 ** Description: 
 **      cmdline.h - Prototypes for command line processing functions.
 ** 
 ** Version: 1.0
-** Date created: 09:46:36,14/11/2012
+** Date created: 22:46:36,14/11/2012
 ** Author: long.luo
 ** 
 ** --------------------------- Revision History: --------------------------------
