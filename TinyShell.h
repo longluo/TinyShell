@@ -1,10 +1,10 @@
 /************************************************************************************
-** File: - Z:\code\c\tSH\tinySHELL.h
+** File: - Z:\code\c\tSH\TinyShell.h
 **  
 ** Copyright (C), Long.Luo, All Rights Reserved!
 ** 
 ** Description: 
-**      tinySHELL.h - Header file of the main
+**      TinyShell.h - Header file of the main
 ** 
 ** Version: 1.1
 ** Date created: 09:40:21,14/11/2012
