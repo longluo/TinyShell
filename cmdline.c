@@ -1,13 +1,13 @@
 /************************************************************************************
 ** File: - Z:\work\code\c\longluo\cmdline.c
-** VENDOR_EDIT
-** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Copyright (C) long.luo, All Rights Reserved.
 ** 
 ** Description: 
 **      cmdline.c - Functions to help with processing command lines.
 ** 
 ** Version: 1.0
-** Date created: 09:47:02,14/11/2012
+** Date created: 21:47:02,14/11/2012
 ** Author: long.luo
 ** 
 ** --------------------------- Revision History: --------------------------------
