@@ -46,7 +46,7 @@ ${COMPILER}:
 	${CC} ${CFLAGS} -D${COMPILER} -o $@ $<
 
 # The objects.
-OBJS =	TinyShell.o	\ 
+OBJS =	TinyShell.o	\
 	cmdline.o	\
 	commands/cmd_ls.o	\
 	commands/cmd_help.o	\
